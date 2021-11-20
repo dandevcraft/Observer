@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC89D199D488B26D89D70906 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC89D9993B2AC4E44597E301 /* Channel.swift */; };
+		CC89D31FF925890C983B2136 /* NotificationCenterChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC89D95BEB70DE974C96853D /* NotificationCenterChannel.swift */; };
+		CC89D507207D23B01FC278C8 /* SerializingChannelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC89DD9729D919DF449E2839 /* SerializingChannelTests.swift */; };
+		CC89D6EFE5E18F0352C4EDB8 /* SimpleChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC89DFB49946103102C5A077 /* SimpleChannel.swift */; };
+		CC89D91F8ABD68EC2F47A8EE /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC89D8BD4C80ABCC41CF5863 /* Subscription.swift */; };
+		CC89DC0FA89C2827A8FC3AD9 /* Subscriber.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC89D4E45E4696207F9248D1 /* Subscriber.swift */; };
+		CC89DC8EE072E9751D7872F2 /* SerializingChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC89D7F605D601C17D0956CF /* SerializingChannel.swift */; };
 		CE1B85412746CEAF0050D78C /* Observer.docc in Sources */ = {isa = PBXBuildFile; fileRef = CE1B85402746CEAF0050D78C /* Observer.docc */; };
 		CE1B85472746CEB00050D78C /* Observer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1B853C2746CEAF0050D78C /* Observer.framework */; };
-		CE1B854C2746CEB00050D78C /* ObserverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B854B2746CEB00050D78C /* ObserverTests.swift */; };
+		CE1B854C2746CEB00050D78C /* SimpleChannelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B854B2746CEB00050D78C /* SimpleChannelTests.swift */; };
 		CE1B854D2746CEB00050D78C /* Observer.h in Headers */ = {isa = PBXBuildFile; fileRef = CE1B853F2746CEAF0050D78C /* Observer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -24,11 +31,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC89D4E45E4696207F9248D1 /* Subscriber.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subscriber.swift; sourceTree = "<group>"; };
+		CC89D7F605D601C17D0956CF /* SerializingChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SerializingChannel.swift; sourceTree = "<group>"; };
+		CC89D8BD4C80ABCC41CF5863 /* Subscription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Subscription.swift; sourceTree = "<group>"; };
+		CC89D95BEB70DE974C96853D /* NotificationCenterChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NotificationCenterChannel.swift; sourceTree = "<group>"; };
+		CC89D9993B2AC4E44597E301 /* Channel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		CC89DD9729D919DF449E2839 /* SerializingChannelTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SerializingChannelTests.swift; sourceTree = "<group>"; };
+		CC89DFB49946103102C5A077 /* SimpleChannel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleChannel.swift; sourceTree = "<group>"; };
 		CE1B853C2746CEAF0050D78C /* Observer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Observer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1B853F2746CEAF0050D78C /* Observer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Observer.h; sourceTree = "<group>"; };
 		CE1B85402746CEAF0050D78C /* Observer.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = Observer.docc; sourceTree = "<group>"; };
 		CE1B85462746CEB00050D78C /* ObserverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObserverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CE1B854B2746CEB00050D78C /* ObserverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObserverTests.swift; sourceTree = "<group>"; };
+		CE1B854B2746CEB00050D78C /* SimpleChannelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleChannelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +87,12 @@
 			children = (
 				CE1B853F2746CEAF0050D78C /* Observer.h */,
 				CE1B85402746CEAF0050D78C /* Observer.docc */,
+				CC89D9993B2AC4E44597E301 /* Channel.swift */,
+				CC89DFB49946103102C5A077 /* SimpleChannel.swift */,
+				CC89D8BD4C80ABCC41CF5863 /* Subscription.swift */,
+				CC89D95BEB70DE974C96853D /* NotificationCenterChannel.swift */,
+				CC89D4E45E4696207F9248D1 /* Subscriber.swift */,
+				CC89D7F605D601C17D0956CF /* SerializingChannel.swift */,
 			);
 			path = Observer;
 			sourceTree = "<group>";
@@ -80,7 +100,8 @@
 		CE1B854A2746CEB00050D78C /* ObserverTests */ = {
 			isa = PBXGroup;
 			children = (
-				CE1B854B2746CEB00050D78C /* ObserverTests.swift */,
+				CE1B854B2746CEB00050D78C /* SimpleChannelTests.swift */,
+				CC89DD9729D919DF449E2839 /* SerializingChannelTests.swift */,
 			);
 			path = ObserverTests;
 			sourceTree = "<group>";
@@ -195,6 +216,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE1B85412746CEAF0050D78C /* Observer.docc in Sources */,
+				CC89D199D488B26D89D70906 /* Channel.swift in Sources */,
+				CC89D6EFE5E18F0352C4EDB8 /* SimpleChannel.swift in Sources */,
+				CC89D91F8ABD68EC2F47A8EE /* Subscription.swift in Sources */,
+				CC89D31FF925890C983B2136 /* NotificationCenterChannel.swift in Sources */,
+				CC89DC0FA89C2827A8FC3AD9 /* Subscriber.swift in Sources */,
+				CC89DC8EE072E9751D7872F2 /* SerializingChannel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,7 +229,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE1B854C2746CEB00050D78C /* ObserverTests.swift in Sources */,
+				CE1B854C2746CEB00050D78C /* SimpleChannelTests.swift in Sources */,
+				CC89D507207D23B01FC278C8 /* SerializingChannelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
